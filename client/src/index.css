@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #53ffaa;
+  box-shadow: 0px 0px 40px #53ffaa;
+  background: #202733;
+  padding: 0 30% 0 30%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: #313a48;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 15px;
+  padding: 40px 50px 0 50px;
+}
+
+.card,
+h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  margin: 20px;
+  margin-top: 0;
+  /* Light Cyan */
+
+  color: #cee3e9;
+}
+
+.card,
+p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height /
+
+text-align: center;
+letter-spacing: 4.08571px;
+
+/ Neon Green */
+
+  color: #53ffaa;
+}
+
+.diceBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #53ffaa;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  padding: 30px;
+  cursor: pointer;
+  background: #53ffaa;
+  box-shadow: 0px 0px 40px #53ffaa;
+}
