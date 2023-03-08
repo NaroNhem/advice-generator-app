@@ -77,4 +77,6 @@ letter-spacing: 4.08571px;
   cursor: pointer;
   background: #53ffaa;
   box-shadow: 0px 0px 40px #53ffaa;
+  position: relative;
+  top: 30px;
 }
